@@ -1,0 +1,42 @@
+:root {
+    --white: #ffffff;
+    --orange: rgba(253, 101, 61, 1);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    font-style: normal;
+    color: var(--white);
+    font-optical-sizing: auto;
+    text-decoration: none;
+}
+
+body {
+    background: rgb(36,0,37);
+    background: linear-gradient(90deg, rgba(36,0,37,1) 0%, rgba(36,0,37,1) 27%, rgba(77,9,67,1) 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: column;
+    flex-wrap: wrap;
+}
+
+.flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

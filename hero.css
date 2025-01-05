@@ -1,0 +1,113 @@
+.heroSection {
+    margin-top: 50px;
+    padding: 0 100px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .heroText .heroImages {
+        display: flex;
+        flex: 1;
+        height: auto;
+    }
+    .heroText {
+        position: relative;
+        width: 490px;
+        height: auto;
+        h3 {
+            font-weight: 600;
+            font-size: 18px;
+            background: #FD7452;
+            background: linear-gradient(to right, #FD7452 0%, #FF4265 52%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        h1 {
+            margin: 30px 0;
+            font-weight: 300;
+            font-size: 52px;
+            span {
+                font-weight: 800;
+                background: #FD7452;
+                background: linear-gradient(to right, #FD7452 0%, #FF4265 52%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+        }
+        .services {
+            margin-top: 50px;
+            button {
+                font-weight: 500;
+                font-size: 14px;
+                padding: 18px 40px;
+                border-radius: 40px;
+                background: rgb(253,116,82);
+                background: linear-gradient(90deg, rgba(253,116,82,1) 0%, rgba(253,116,82,1) 0%, rgba(255,66,101,1) 82%);
+            }
+            p {
+                font-weight: 400;
+                font-size: 14px;
+                text-decoration: underline;
+                padding: 18px 30px;
+            }
+        }
+    }
+
+    .herobackground {
+        background: linear-gradient(30.59deg, #140119 1.55%, #5B0E4E 88.54%);
+        box-shadow: 0px 4px 250px rgba(255, 201, 62, 0.25);
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        position: relative;
+        bottom: 0;
+    }
+    
+    .heroImages {
+        position: relative;
+        width: 580px;
+        height: 650px;
+        .smallPupIcons {
+            img {
+                position: absolute;
+            }
+            .layingDog {
+                top: 500px;
+                left: -20px;
+            }
+            .dressedUpDog {
+                top: 180px;
+                left: 25px;
+            }
+            .photogenicDog {
+                top: -30px;
+                left: 100px;
+            }
+            .uncleDog {
+                top: 10px;
+                left: 350px;
+            }
+            .smolDog {
+                top: 120px;
+                left: 480px;
+            }
+
+        }
+        .humongousPuppy>img {
+            position: absolute;
+            top: 135px;
+            left: 30px;
+        }
+    }
+    }
+
+    @media (max-width: 1286px) {
+        .heroSection {
+            .heroImages {
+                margin-top: 80px;
+            }
+        }
+    }
